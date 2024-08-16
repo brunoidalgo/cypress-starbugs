@@ -1,5 +1,5 @@
-import Login from '../fixtures/pages/home/index';
+import login from '../fixtures/pages/home/index';
 
 Cypress.Commands.add('login', () => {
-    Login.goto();
+    login.goto();
 });
